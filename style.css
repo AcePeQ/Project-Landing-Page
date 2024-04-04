@@ -12,6 +12,102 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
+}
+
+.section-hero {
+  background-color: #1f2937;
+  padding: 10px 0 120px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0 1 1200px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: #3882f6;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  border-radius: 9px;
+
+  padding: 8px 30px;
+  color: #f9faf8;
+
+  cursor: pointer;
+}
+
+.container--hero {
+  gap: 100px;
+}
+
+.navigation {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+
+  line-height: 1.1;
+}
+
+.nav {
+  list-style: none;
+
+  display: flex;
+  gap: 15px;
+}
+
+.hero__subtext,
+.nav__link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero__subtext {
+  margin: 10px 0;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  gap: 65px;
+}
+
+.hero__left {
+  flex: 0 1 50%;
+  padding: 20px 0;
+}
+
+.hero__right {
+  flex: 0 1 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e5e7ed;
 }
