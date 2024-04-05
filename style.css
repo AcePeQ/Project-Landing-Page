@@ -193,6 +193,7 @@ body {
 }
 
 .testimonial__author {
+  display: block;
   font-size: 24px;
   font-weight: 700;
   text-align: right;
@@ -212,7 +213,7 @@ body {
 
 .cta__title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .cta__subtitle {
@@ -236,4 +237,17 @@ body {
   color: inherit;
   border: 2px solid #f9faf8;
   font-weight: 600;
+}
+
+.footer {
+  padding: 30px 0;
+  background-color: #1f2937;
+}
+
+.footer__text {
+  display: block;
+  color: #f9faf8;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
 }
